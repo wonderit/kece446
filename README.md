@@ -14,15 +14,16 @@ To get you started, we have created a sample repository for your assignments.
 
 1) Run an application 
 
-https://docs.c9.io/v1.0/docs/run-an-application
-    
-- Press 'Run Project' button in the top menu bar.
+http://docs.codeanywhere.com/quicktutorial.html
 
-2) Share a Workspace
+- Press “Run” button with a right click on your app
 
-https://docs.c9.io/v1.0/docs/share-a-workspace
+2) Share a Project
+
+http://docs.codeanywhere.com/features/share.html
     
 - Press share button in the top right of the menu bar.
+
 - invite the instructor (won425@korea.ac.kr)
     
 And that's all there is to it! Just have fun. Go ahead and edit the code, 
@@ -35,30 +36,17 @@ The KECE446 Teaching team
 
 ## Support & Documentation
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Visit http://docs.codeanywhere.com/ for support, or to learn more about using Cloud9 IDE. 
+To watch some training videos, visit 
+
+- mysql 
+
+http://docs.codeanywhere.com/connections/phpmyadmin.html
 
 ### How to Set up a Database
 
-    # start MySQL. Will create an empty database on first start
-    $ mysql-ctl start
-    
-    # stop MySQL
-    $ mysql-ctl stop
-    
-    # run the MySQL interactive shell
-    $ mysql-ctl cli
-        
-    # Install phpMyAdmin
-    $ phpmyadmin-ctl install
-    
-After installing phpMyAdmin, you were given a link to access PHPMyAdmin which will follow the pattern of: https://[workspacename]-[username].c9users.io/phpmyadmin. From that link, you can login with your Cloud9 username and a blank password.
-
-### How to look at the Apache Logs.
-
-    $ cd ~/lib/apache2/log
-    $ vi error.log
-
+    # right click the project connection folder and open ssh terminal
+    $ mysql -u root
 
 
 
