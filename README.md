@@ -49,4 +49,15 @@ http://docs.codeanywhere.com/connections/phpmyadmin.html
     $ mysql -u root
 
 
+### How to install Java?
 
+    # 1. open ssh terminal
+    
+    # 2. update the package index
+    $ sudo apt-get update
+    
+    # 3. install java. (JRE)
+    $ sudo apt-get install default-jre
+    
+    # 4. check java version
+    $ java -version
